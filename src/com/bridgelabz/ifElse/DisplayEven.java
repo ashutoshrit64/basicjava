@@ -9,6 +9,7 @@ public class DisplayEven {
 		Scanner scanner=new Scanner(System.in);
 		System.out.print("please enter number range:");
 		int number=scanner.nextInt();
+		System.out.println("even number between range"+i+"to"+number);
 		for(int i=0;i<number;i++) {
 			if(i%2==0) {
 				System.out.println(i);
