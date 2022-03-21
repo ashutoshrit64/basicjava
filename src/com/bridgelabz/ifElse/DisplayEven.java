@@ -9,7 +9,6 @@ public class DisplayEven {
 		Scanner scanner=new Scanner(System.in);
 		System.out.println("please enter number range:");
 		int number=scanner.nextInt();
-
 		Scanner scan=new Scanner(System.in);
 		System.out.print("Please enter the date:");
 		int date=scan.nextInt();
