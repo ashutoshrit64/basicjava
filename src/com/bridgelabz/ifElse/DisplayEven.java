@@ -9,6 +9,7 @@ public class DisplayEven {
 		Scanner scanner=new Scanner(System.in);
 		System.out.println("please enter number range:");
 		int number=scanner.nextInt();
+
 		Scanner scan=new Scanner(System.in);
 		System.out.print("Please enter the date:");
 		int date=scan.nextInt();
@@ -38,6 +39,8 @@ public class DisplayEven {
 			System.out.println("please enter proper day!!");
 			break;
 		}
+		System.out.println("even number between range from 0 to "+number);
+
 		for(int i=0;i<number;i++) {
 			if(i%2==0) {
 				System.out.println(i);
